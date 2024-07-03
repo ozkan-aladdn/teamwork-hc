@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(113, 26, 207);
+}
+
+.mac {
+  width: 50%;
+}
+.mac img {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+span {
+  background-color: #2074f5;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.title p {
+  color: rgb(68, 68, 68);
+  font-size: 19px;
+}
+
+.content h3 {
+  font-weight: 600;
+  font-size: 19px;
+  color: rgb(58, 58, 58);
+}
+.content p {
+  color: rgb(85, 85, 85);
+  font-size: 17px;
+}
+
+.button {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.storage h3 {
+  font-weight: 600;
+  font-size: 19px;
+  color: rgb(58, 58, 58);
+}
+.storage button {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 500;
+  padding: 0 1rem;
+  border-radius: 5px;
+  width: 5rem;
+  border: none;
+}
+.tb {
+  background-color: #2074f5;
+  color: white;
+}
+
+.add {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.add button {
+  background-color: #2074f5;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.5rem;
+  border: none;
+}
+
+.add h2 {
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+}
