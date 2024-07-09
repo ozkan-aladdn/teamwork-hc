@@ -18,6 +18,7 @@
 
 .mac {
   width: 50%;
+  flex: 1;
 }
 .mac img {
   width: 100%;
@@ -25,6 +26,7 @@
 
 .main {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
@@ -100,4 +102,18 @@ span {
   line-height: 34px;
   font-weight: 600;
   color: rgb(51, 51, 51);
+}
+@media screen and (max-width:1000px) {
+  .text {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient:vertical;
+      overflow: hidden;
+  }
+
+}
+@media screen and (max-width:900px) {
+  .container {
+      flex-direction: column;
+  }
 }
